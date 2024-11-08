@@ -20,7 +20,7 @@ from django.urls import path
 from bkuser.apis.web.audit import views
 
 urlpatterns = [
-    # 数据源插件列表
+    # 操作审计记录列表
     path(
         "",
         views.AuditRecordListAPIView.as_view(),
